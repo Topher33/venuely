@@ -1,89 +1,89 @@
 {
-  "brick_factory": {
-    "space_description": "Downtown fun factory minimalist appearance. We always have fresh coffee and snacks. Guest areas and group deticated wifi access per space",
-    "private": true,
-    "amenties_type": {
-      "kitchen": true,
-      "pantry": false,
-      "bar": true,
-      "kitchenette": false,
-      "restaurant": false
-    },
-    "kitchen": [
-      "Coffee",
-      "Bakery",
-      "Deli"
-    ],
-    "bar": [
-      "Alchohol",
-      "Coffee",
-      "Sodas",
-    ],
-    "address": "2234 Downtown Blvd Atlanta, GA 30060",
-    "reviews": {
-      "tophy33": "This place has a cool feel and love their dark roast coffee!",
-      "callinator": "Its not a suit and tie place, which rocks!",
-      "andre-monkey": "Wifi is super fast, would be nice if they had my favorite beer on tap."
-    },
-    "image": "https://picsum.photos/500/300/?random=1"
-  },
-  "the_fruit_stand": {
-    "space_description": "Countryside weWork like space, we always have market fresh vegetables and fruits for snacking or bringing home",
-    "private": false,
-    "amenties_type": {
-      "kitchen": false,
-      "pantry": true,
-      "bar": false,
-      "kitchenette": true,
-      "restaurant": false
-    },
-    "kitchenette": [
-      "Coffee",
-      "Snacks",
-      "Water",
-      "Mini-Fridge",
-      "Microwave"
-    ],
-    "pantry": [
-      "Fresh Produce",
-      "Paper Plates",
-      "Cups",
-      "Sodas"
-    ],
-    "address": "1223 Hwy 53 Columbus, GA 30025",
-    "reviews": {
-      "callinator": "Fresh veges, love them",
-      "tophy33": "Its a little open to my liking, feels like people moving everywhere",
-      "andre-monkey": "Wifi is intermitent while using the outdoor seating"
-    },
-    "image": "https://picsum.photos/500/300/?random=1"
-  },
-  "zen_garden": {
-    "space_description": "City retreat space, you are in midtown but you would not know it. We have outdoor and indoor zen space for group therapy or teaching sessions.",
-    "private": true,
-    "amenties_type": {
-      "kitchen": true,
-      "pantry": false,
-      "bar": true,
-      "kitchenette": false,
-      "restaurant": true
-    },
-    "kitchen": [
-      "To Order Meals",
-      "Catering Ready",
-      "Commercial Use"
-    ],
-    "bar": [
-      "Fresh Juice",
-      "Coffee",
-      "Sparkling Water"
-    ],
-    "address": "4334 Midtown St. Buckhead, GA 40042",
-    "reviews": {
-      "andre-monkey": "This is the place for relaxing",
-      "tophy33": "Juice bar? where is the beer?",
-      "callinator": "Its a little to quiet for work retreats"
-    },
-    "image": "https://picsum.photos/500/300/?random=1"
-  }
+   "brick_factory":{
+      "space_description":"Downtown fun factory minimalist appearance. We always have fresh coffee and snacks. Guest areas and group deticated wifi access per space",
+      "private":true,
+      "amenties_type":{
+         "kitchen":true,
+         "pantry":false,
+         "bar":true,
+         "kitchenette":false,
+         "restaurant":false
+      },
+      "kitchen":[
+         "Coffee",
+         "Bakery",
+         "Deli"
+      ],
+      "bar":[
+         "Alchohol",
+         "Coffee",
+         "Sodas"
+      ],
+      "address":"2234 Downtown Blvd Atlanta, GA 30060",
+      "reviews":{
+         "tophy33":"This place has a cool feel and love their dark roast coffee!",
+         "callinator":"Its not a suit and tie place, which rocks!",
+         "andre-monkey":"Wifi is super fast, would be nice if they had my favorite beer on tap."
+      },
+      "image":"https://picsum.photos/500/300/?random=1"
+   },
+   "the_fruit_stand":{
+      "space_description":"Countryside weWork like space, we always have market fresh vegetables and fruits for snacking or bringing home",
+      "private":false,
+      "amenties_type":{
+         "kitchen":false,
+         "pantry":true,
+         "bar":false,
+         "kitchenette":true,
+         "restaurant":false
+      },
+      "kitchenette":[
+         "Coffee",
+         "Snacks",
+         "Water",
+         "Mini-Fridge",
+         "Microwave"
+      ],
+      "pantry":[
+         "Fresh Produce",
+         "Paper Plates",
+         "Cups",
+         "Sodas"
+      ],
+      "address":"1223 Hwy 53 Columbus, GA 30025",
+      "reviews":{
+         "callinator":"Fresh veges, love them",
+         "tophy33":"Its a little open to my liking, feels like people moving everywhere",
+         "andre-monkey":"Wifi is intermitent while using the outdoor seating"
+      },
+      "image":"https://picsum.photos/500/300/?random=1"
+   },
+   "zen_garden":{
+      "space_description":"City retreat space, you are in midtown but you would not know it. We have outdoor and indoor zen space for group therapy or teaching sessions.",
+      "private":true,
+      "amenties_type":{
+         "kitchen":true,
+         "pantry":false,
+         "bar":true,
+         "kitchenette":false,
+         "restaurant":true
+      },
+      "kitchen":[
+         "To Order Meals",
+         "Catering Ready",
+         "Commercial Use"
+      ],
+      "bar":[
+         "Fresh Juice",
+         "Coffee",
+         "Sparkling Water"
+      ],
+      "address":"4334 Midtown St. Buckhead, GA 40042",
+      "reviews":{
+         "andre-monkey":"This is the place for relaxing",
+         "tophy33":"Juice bar? where is the beer?",
+         "callinator":"Its a little to quiet for work retreats"
+      },
+      "image":"https://picsum.photos/500/300/?random=1"
+   }
 }

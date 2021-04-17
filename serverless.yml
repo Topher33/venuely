@@ -61,40 +61,40 @@ functions:
          path: /venues
          method: get
          cors: true
-  createVenue:
-    handler: handlers/venue.create
-    memorySize: 128
-    events:
-      - http:
-         path: /venue
-         method: post
-         # authorizer: authorizer
-         cors: true
-  viewVenue:
-    handler: handlers/venue.view
-    memorySize: 128
-    events:
-      - http:
-         path: /venue/{id}
-         method: get
-         cors: true
-         request:
-          parameters:
-            paths:
-              id: true
-  updateVenue:
-    handler: handlers/venue.update
-    memorySize: 128
-    events:
-      - http:
-         path: /venue/{id}
-         method: put
-         # authorizer: authorizer
-         cors: true
-         request:
-          parameters:
-            paths:
-              id: true
+  # createVenue:
+  #   handler: handlers/venues.create
+  #   memorySize: 128
+  #   events:
+  #     - http:
+  #        path: /venue
+  #        method: post
+  #        # authorizer: authorizer
+  #        cors: true
+  # viewVenue:
+  #   handler: handlers/venues.view
+  #   memorySize: 128
+  #   events:
+  #     - http:
+  #        path: /venue/{id}
+  #        method: get
+  #        cors: true
+  #        request:
+  #         parameters:
+  #           paths:
+  #             id: true
+  # updateVenue:
+  #   handler: handlers/venues.update
+  #   memorySize: 128
+  #   events:
+  #     - http:
+  #        path: /venue/{id}
+  #        method: put
+  #        # authorizer: authorizer
+  #        cors: true
+  #        request:
+  #         parameters:
+  #           paths:
+  #             id: true
   # authorizer:
   #   handler: auth.authorizer
 #    The following are a few example events you can configure

@@ -17,7 +17,7 @@ const dynamoDB = new AWS.DynamoDB.DocumentClient();
 module.exports.index = function(event, context, callback) {
   console.log(event); // Contains incoming request data (e.g., query params, headers and more)
 
-  const venues = json.safeLoad(fs.readFileSync('venues.json', 'utf8'))
+  const venues = JSON.parse(fs.readFileSync('venues.json', 'utf8'))
   // const venues = await scanTable('venue-dev');
 
   const response = {
@@ -36,8 +36,8 @@ module.exports.index = function(event, context, callback) {
 module.exports.viewAll = function(event, context, callback) {
   console.log(event); // Contains incoming request data (e.g., query params, headers and more)
 
-  // const venues = JSON.safeLoad(fs.readFileSync('venues.json', 'utf8'))
-  const venues = await scanTable('venues-dev');
+  const venues = JSON.parse(fs.readFileSync('venues.json', 'utf8'))
+  // const venues = await scanTable('venues-dev');
 
   const response = {
     statusCode: 200,

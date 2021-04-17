@@ -2,7 +2,10 @@
   "name": "venuely",
   "version": "0.0.1",
   "description": "hip venue rental app",
-  "author": ["Matt Warren", "Andre"],
+  "author": [
+    "Matt Warren",
+    "Andre"
+  ],
   "dependencies": {
     "@shiftcoders/dynamo-easy": "^7.1.0",
     "bluebird": "^3.7.2",
