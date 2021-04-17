@@ -1,0 +1,7 @@
+body
+  form(action='/venue', method='POST')
+    p
+      each v, k in venues
+      | k:
+      input(type='text', name=k, value=v)
+    input(type='submit', value='Update')

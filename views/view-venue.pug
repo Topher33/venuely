@@ -1,0 +1,16 @@
+doctype html
+html(lang='en')
+  head
+    h1 venue.name
+  body
+    venue.shift()
+    each _val, _key in venue[]
+      dl
+        dt= _key + ':'
+          each v, k in _val
+            dd= k + ':'
+              each _v, _k in v
+                ul(style='list-style-type:none')
+                  li= _k + ':'
+                    ul(style='list-style-type:square')
+                      li=_v

@@ -1,0 +1,18 @@
+doctype html
+html(lang='en')
+head
+  title Venuely
+  style
+    include ../public/css/main.css
+body
+  .main
+    h1 Venues
+      each v, k in venues
+        li.cards_item
+          .card
+            .card_image
+              img(src=v.image)
+            .card_content
+              h2.card_title=k
+              p.card_text=v.description
+              button.btn.card_btn Read More

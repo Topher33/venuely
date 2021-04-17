@@ -1,0 +1,19 @@
+{
+  "name": "venuely",
+  "version": "0.0.1",
+  "description": "hip venue rental app",
+  "author": ["Matt Warren", "Andre"],
+  "dependencies": {
+    "@shiftcoders/dynamo-easy": "^7.1.0",
+    "bluebird": "^3.7.2",
+    "card-grid": "^0.1.2",
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.14.0",
+    "pug": "^3.0.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.12.0",
+    "serverless-offline": "^6.7.0"
+  }
+}
